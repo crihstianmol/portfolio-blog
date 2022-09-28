@@ -1,0 +1,28 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1.2rem;
+}
+
+.about > .img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about > .img-container > img {
+  border-radius: 100px;
+}
+
+.about > div {
+  padding: 1rem;
+}
+
+.about-reg > h3 {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 590px) {
+  .about{
+    width: 100vw;
+  }
+}

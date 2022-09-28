@@ -1,0 +1,64 @@
+.svg-media {
+  height: 32px;
+  width: 32px;
+}
+
+.svg-platzi {
+  border-radius: 10px;
+  border-color: #121f3d;
+  background: radial-gradient(#98ca3f, #97ca3f26);
+}
+
+.cv-button {
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid var(--font-color);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.cv-button:hover {
+  border: 2px solid var(--font-special);
+}
+.cv-button .svg-media {
+  padding: 3px;
+}
+
+.contact {
+  width: 600px;
+  margin: 0 auto 0;
+}
+
+.contact-social {
+  margin: 20% 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-social-item {
+  margin: 0.5em 0.5em;
+}
+
+.contact-social-item a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 590px) {
+  .contact {
+    width: 100vw;
+  }
+
+  .contact-social {
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+}

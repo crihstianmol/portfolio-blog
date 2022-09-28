@@ -1,0 +1,121 @@
+.skills > div {
+  padding: 1rem;
+}
+.skill-list {
+  padding: 0.01rem 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skill-list > * {
+  margin-right: 0.6rem;
+  margin-top: 0.6rem;
+}
+.svg-fill{
+  fill: var(--font-color)
+}
+.skill-item {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999999px;
+  background-color: transparent;
+  color: var(--font-color);
+  cursor: default;
+  transition: all 0.2s ease-in-out 0s;
+}
+.skill-item > svg {
+  margin-right: 0.2rem;
+}
+.svg-skills {
+  height: 19.19px;
+}
+/* VB SVG  */
+.cls-1 {
+  fill: #68217A;
+}
+.cls-2,
+.cls-3 {
+  fill: #fff;
+}
+.cls-2 {
+  opacity: 0.1;
+}
+
+.sk-javascript {
+  --bg-color: rgba(247, 223, 30, 0.2);
+  --border-color: rgba(247, 223, 30, 0.6);
+}
+.sk-css {
+  --bg-color: rgba(53, 114, 181, 0.2);
+  --border-color: rgba(53, 114, 181, 0.6);
+}
+.sk-html {
+  --bg-color: rgba(227, 79, 38, 0.2);
+  --border-color: rgba(227, 79, 38, 0.6);
+}
+.sk-git {
+  --bg-color: rgba(227, 79, 38, 0.2);
+  --border-color: rgba(227, 79, 38, 0.6);
+}
+.sk-jquery {
+  --bg-color: rgba(49, 120, 198, 0.2);
+  --border-color: rgba(49, 120, 198, 0.6);
+}
+.sk-typescript {
+  --bg-color: rgba(49, 120, 198, 0.2);
+  --border-color: rgba(49, 120, 198, 0.6);
+}
+.sk-angular {
+  --bg-color: rgba(49, 120, 198, 0.2);
+  --border-color: rgba(198, 49, 49, 0.6);
+}
+.sk-react {
+  --bg-color: rgba(53, 114, 181, 0.2);
+  --border-color: rgba(53, 114, 181, 0.6);
+}
+.sk-nodejs {
+  --bg-color: rgba(97, 175, 67, 0.2);
+  --border-color: rgba(97, 175, 67, 0.6);
+}
+.sk-express {
+  --bg-color: rgba(136, 136, 136, 0.2);
+  --border-color: rgba(136, 136, 136, 0.6);
+}
+.sk-graphql {
+  --bg-color: rgba(213, 18, 231, 0.2);
+  --border-color: rgba(213, 18, 231, 0.6);
+}
+.sk-net {
+  --bg-color: rgba(213, 18, 231, 0.2);
+  --border-color: rgba(213, 18, 231, 0.6);
+}
+.sk-mysql {
+  --bg-color: rgba(247, 223, 30, 0.2);
+  --border-color: rgba(53, 114, 181, 0.6);
+}
+.sk-sqlserver {
+  --bg-color: rgba(247, 223, 30, 0.2);
+  --border-color: rgba(181, 53, 53, 0.6);
+}
+.sk-posgres {
+  --bg-color: rgba(247, 223, 30, 0.2);
+  --border-color: rgba(53, 114, 181, 0.6);
+}
+.sk-mongo {
+  --bg-color: rgba(105, 161, 74, 0.2);
+  --border-color: rgba(105, 161, 74, 0.6);
+}
+.sk-ionic {
+  --bg-color: rgba(247, 223, 30, 0.2);
+  --border-color: rgba(53, 114, 181, 0.6);
+}
+@media only screen and (max-width: 590px) {
+  .skills {
+    width: 100vw;
+  }
+}
