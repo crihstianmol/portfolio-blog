@@ -65,12 +65,12 @@ function NavRouter({ children, headerprops = null }) {
                 <meta name="copyright" content="Crihstian Molina" />
                 <meta name="robots" content="index,follow" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://crihstianmol.dev/" />
+                <meta property="og:url" content="https://blog.crihstianmol.dev/" />
                 <meta property="og:title" content={headerprops != null ? (headerprops.title != null ? `${headerdefaults.title} - ${headerprops.title}` : headerdefaults.title) : headerdefaults.title} />
                 <meta property="og:description" content={headerprops != null ? (headerprops.description != null ? headerprops.description : headerdefaults.description) : headerdefaults.description} />
                 <meta property="og:image" content={headerprops != null ? (headerprops.image != null ? headerprops.image : headerdefaults.image) : headerdefaults.image} />
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://crihstianmol.dev/" />
+                <meta property="twitter:url" content="https://blog.crihstianmol.dev/" />
                 <meta property="twitter:title" content={headerprops != null ? (headerprops.title != null ? `${headerdefaults.title} - ${headerprops.title}` : headerdefaults.title) : headerdefaults.title} />
                 <meta property="twitter:description" content={headerprops != null ? (headerprops.description != null ? headerprops.description : headerdefaults.description) : headerdefaults.description} />
                 <meta property="twitter:image" content={headerprops != null ? (headerprops.image != null ? headerprops.image : headerdefaults.image) : headerdefaults.image} />
@@ -84,14 +84,14 @@ function NavRouter({ children, headerprops = null }) {
                         <nav className="nav-bar">
                             <div className="nav">
                                 <label className="logo">
-                                    <a onClick={() => { changeRoute("/") }} _href="/"><span className="logo-a"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/favicon.png"></img></span> </span></a>
-                                    <a onClick={() => { changeRoute("/") }} _href="/"><span className="logo-a"><span className="ml">Crihstian Molina</span></span></a>
+                                    <a href="https://crihstianmol.dev/"><span className="logo-a"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/favicon.png"></img></span> </span></a>
+                                    <a href="https://crihstianmol.dev/"><span className="logo-a"><span className="ml">Crihstian Molina</span></span></a>
                                 </label>
                                 <input type="checkbox" checked={check} onChange={changeCheckStatus} id="btnMenu" className="nav-btn" />
                                 <div className="links">
-                                    <a onClick={() => { changeRoute("/blog") }} _href="/blog"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/blog.png"></img></span> Blog</a>
-                                    <a onClick={() => { changeRoute("/curriculum") }} _href="/curriculum"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/curriculum.png"></img></span> Curriculum</a>
-                                    <a onClick={() => { changeRoute("/contact") }} _href="/contact"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/phone.png"></img></span> Contacto</a>
+                                    <a href="https://blog.crihstianmol.dev/"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/blog.png"></img></span> Blog</a>
+                                    <a href="https://crihstianmol.dev/curriculum"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/curriculum.png"></img></span> Curriculum</a>
+                                    <a href="https://crihstianmol.dev/contact"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/phone.png"></img></span> Contacto</a>
                                 </div>
                                 <div className='nav-buttons-container'>
                                     <span className="emoji" role="img" onClick={switchTheme}>
@@ -118,14 +118,14 @@ function NavRouter({ children, headerprops = null }) {
                         <nav className="nav-bar">
                             <div className="nav">
                                 <label className="logo">
-                                    <a onClick={() => { changeRoute("/") }} _href="/"><span className="logo-a"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/favicon.png"></img></span> </span></a>
-                                    <a onClick={() => { changeRoute("/") }} _href="/"><span className="logo-a"><span className="ml">Crihstian Molina</span></span></a>
+                                    <a href="https://crihstianmol.dev/"><span className="logo-a"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/favicon.png"></img></span> </span></a>
+                                    <a href="https://crihstianmol.dev/"><span className="logo-a"><span className="ml">Crihstian Molina</span></span></a>
                                 </label>
                                 <input type="checkbox" checked={check} onChange={changeCheckStatus} id="btnMenu" className="nav-btn" />
                                 <div className="links">
-                                    <a onClick={() => { changeRoute("/blog") }} _href="/blog"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/blog.png"></img></span> Blog</a>
-                                    <a onClick={() => { changeRoute("/curriculum") }} _href="/curriculum"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/curriculum.png"></img></span> Curriculum</a>
-                                    <a onClick={() => { changeRoute("/contact") }} _href="/contact"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/phone.png"></img></span> Contact</a>
+                                    <a href="https://blog.crihstianmol.dev/"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/blog.png"></img></span> Blog</a>
+                                    <a href="https://crihstianmol.dev/curriculum"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/curriculum.png"></img></span> Curriculum</a>
+                                    <a href="https://crihstianmol.dev/contact"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/phone.png"></img></span> Contact</a>
                                 </div>
                                 <div className='nav-buttons-container'>
                                     <span className="emoji" role="img" onClick={switchTheme}>
@@ -159,7 +159,7 @@ function NavRouter({ children, headerprops = null }) {
                     <div className="footer mt">
                         <div className="footer-links-container" >
                             <div className="footer-links">
-                                <a onClick={() => { changeRoute("/hobbies") }} _href="/hobbies"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/hobbies.png"></img></span> Hobbies</a>
+                                <a href="https://crihstianmol.dev/hobbies"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/hobbies.png"></img></span> Hobbies</a>
                                 <a href='https://www.paypal.com/donate/?hosted_button_id=WMJ939EWKVBVC' target='_blank' rel='noreferrer' ><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/buy-coffe.png"></img></span> Donar</a>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ function NavRouter({ children, headerprops = null }) {
                     <div className="footer mt">
                         <div className="footer-links-container" >
                             <div className="footer-links">
-                                <a onClick={() => { changeRoute("/hobbies") }} _href="/hobbies"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/hobbies.png"></img></span> Hobbies</a>
+                                <a href="https://crihstianmol.dev/hobbies"><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/hobbies.png"></img></span> Hobbies</a>
                                 <a href='https://www.paypal.com/donate/?hosted_button_id=WMJ939EWKVBVC' target='_blank' rel='noreferrer' ><span className="emoji" role="img" ><img width="19" height="19" alt="url" src="../static/images/logos/buy-coffe.png"></img></span> Donate</a>
                             </div>
                         </div>
